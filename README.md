@@ -1,1 +1,161 @@
-# ghabsha.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Restaurant</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="content">
+        <section class="firstSection">
+            <div class="container">
+              <div class="row d-flex justify-content-center">
+                <div id="inputContainer" class="myInput col-md-6 col-12 mt-4 row" >
+                  <div class="col-12 d-flex justify-content-between">
+                    <img src="images/2.PNG" alt="" width="130vw" class="photo" height="30vh">
+                    <a href="#"><i class="fa-sharp fa-solid fa-share-nodes text-black"  style="margin-top: 10px;font-size: 35px;"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="img">
+                <img src="images/2.PNG" alt="" width="130vw" class="imgLogo" height="130vh">
+            </div>
+                <div class="d-flex justify-content-center pt-5 ">
+                  <p class="text" style=" font-family:verdana;">
+                    عروض خاصة
+                </p>
+              </div>
+                <div class="row d-flex justify-content-center containing">
+                    <div id="carouselExample" class="  carousel slide col-md-7 col-12 pt-5" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExample" data-slide-to="0" class="active" class="bg-primary" style="background-color: rgba(0, 0, 255, 0.732);"></li>
+                          <li data-target="#carouselExample" data-slide-to="1" style="background-color: rgba(0, 0, 255, 0.732);"></li>
+                          
+                        </ol>
+                        <div class="carousel-inner slider">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/3.PNG" alt="Slide 1">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="images/5.PNG" alt="Slide 2">
+                          </div>
+                         
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <section class="secondSection">
+          <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div id="carouselExample" class="  carousel slide col-md-7 col-12 " >
+              <div class="d-flex justify-content-center mt-3"><p class="text " style="color: #35312d; font-family:verdana;">اطلب الأن</p></div>
+
+              <div class=" contacts mt-3 d-flex  " style="background-color: #f2c03e; border-radius: 10px; ">
+                <div class="col-11 d-flex">
+                  <img src="images/phoneIcon-removebg-preview.png" alt="" width="9%"  style="margin-left: 10px;margin-right: 10px;">
+                  <a href="http://wa.me/966534667064"> <p style="margin-top: 10px; color: white; font-family:verdana;  font-size:17px;">لطلب تواصلو عن طريق الواتس - فرع الدمام</p></a>
+                </div>
+               <!-- <div class="col-1">
+               <a href="http://wa.me/966534667064"><i class="fa-solid fa-arrow-up-right-from-square text-white "  style="text-align: end;"></i></a>
+               </div> -->
+              </div>
+
+              <div class=" contacts mt-2 d-flex  " style="background-color: #024b99; border-radius: 10px; ">
+               <div class="col-11 d-flex"> 
+                <img src="images/phoneIcon-removebg-preview.png" alt=""  width="9%" style="margin-left: 10px;margin-right: 10px;">
+                <a href="tel:+966138158740"> <p style="margin-top: 10px; color: white; font-family:verdana; font-size:17px;">للطلب إتصال - فرع الخبر</p></a>
+              </div>
+              <!-- <div class="col-1">
+                <a href="http://wa.me/0534667064"><i class="fa-solid fa-arrow-up-right-from-square text-white "  style="text-align: end;"></i></a>
+              </div> -->
+              </div>
+
+
+              <!-- <div class=" contacts mt-2 d-flex  " style="background-color: #35312d; border-radius: 10px; ">
+                <div class="col-11 d-flex ">
+                <img src="images/phoneIcon-removebg-preview.png" alt=""  width="9%" style="margin-left: 10px;margin-right: 10px;">
+                <a href="http://wa.me/966*********"><p style="margin-top: 10px; color: white;">عينة لإضافة زر</p></a>
+                </div>
+                <div class="col-1">
+                  <a href="http://wa.me/966*********"><i class="fa-solid fa-arrow-up-right-from-square text-white "  style="text-align: end;"></i></a>
+                </div>
+              </div> -->
+
+
+              <div class="d-flex justify-content-center mt-3"><p class="text " style="color: #35312d; font-family:verdana;"> مواقع فروعنا</p></div>
+
+
+
+              <div class=" contacts mt-3 d-flex  " style="background-color: #00b3d8; border-radius: 10px; ">
+                
+                <div class="col-11 d-flex">
+                  <img src="images/Location-Transparent.png" alt=""  width="9%" style="margin-left: 10px;margin-right: 10px;">
+                  <a href="https://maps.app.goo.gl/K1zATdK3ALCqUuFq6?g_st=ic"> <p style="margin-top: 10px; color: white; font-family:verdana; font-size:17px;"> غبشة الدمام </p></a>
+               </div>
+               <div class="col-1">
+                <a href="https://maps.app.goo.gl/K1zATdK3ALCqUuFq6?g_st=ic"><i class="fa-sharp fa-solid fa-share-nodes text-white " style="text-align: end;"></i></a> 
+              </div>
+              </div>
+
+
+              <div class=" contacts mt-2 d-flex  " style="background-color: #8c2a3c; border-radius: 10px; ">
+               <div class="col-11 d-flex"> 
+                <img src="images/Location-Transparent.png" alt=""  width="9%" style="margin-left: 10px;margin-right: 10px;">
+                <a href="https://maps.google.com?q=ghabsha,%207822%2022nd%20St,%20Al%20Aqrabiyah,%203826,%20Al%20Khobar%2034445&ftid=0x3e49e97e79f9bfcd:0xcbd057aee6caae7e&hl=en-SA&gl=sa&entry=gps&lucs=47059803,47067412&g_st=ic"> 
+                   <p style="margin-top: 10px; color: white; font-family:verdana; font-size:17px;">غبشة الخبر</p>
+                </a>
+              </div>
+              <div class="col-1">
+               <a href="https://maps.google.com?q=ghabsha,%207822%2022nd%20St,%20Al%20Aqrabiyah,%203826,%20Al%20Khobar%2034445&ftid=0x3e49e97e79f9bfcd:0xcbd057aee6caae7e&hl=en-SA&gl=sa&entry=gps&lucs=47059803,47067412&g_st=ic">
+                <i class="fa-sharp fa-solid fa-share-nodes text-white " style="text-align: end;"></i></a> 
+              </div>
+              </div>
+
+
+              <div class="d-flex justify-content-center mt-3"><p class="text " style="color: #35312d; font-family:verdana;">  تابعونا لمعرفة كل جديد</p></div>
+              <div class="d-flex justify-content-center mt-5 mb-5">
+                <a href="https://instagram.com/ghabsha.sa" class="text-dark"> <i class="fa-brands fa-instagram fa-2xl mx-2"></i></a>
+                           
+                <a href="https://tiktok.com/@ghabsha.sa" class="text-dark"><i class="fa-brands fa-tiktok fa-2xl mx-2"></i></a>
+                <a href="mailto:ghabsha.sa@gmail.com" class="text-dark"><i class="fa-regular fa-envelope fa-2xl"></i></a>
+               </div>
+            </div>
+             
+
+              
+        </div>
+        </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>

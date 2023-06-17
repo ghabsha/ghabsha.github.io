@@ -1,0 +1,80 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    position: relative;
+    background-image: url("images/Capture.PNG");
+    background-size: cover;
+    background-position: center;
+    
+}
+.myInput{
+    height: 60px;
+    background-color: rgba(192, 187, 187, 0.829);
+    border-radius: 30px;
+    opacity: .5;
+    display: none;
+    position: fixed;
+    z-index: 9999;
+}
+.overlay {
+    background-color: rgba(255, 255, 255, 0.815); 
+    width: 100%;
+    height: 200vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.img{
+    position: relative;
+    z-index: 2;
+    display:flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.imgLogo{
+    border-radius: 130px;
+    box-shadow: 10px 10px 10px 10px rgb(217, 217, 217);
+}
+.content {
+    position: relative;
+    z-index: 2;
+}
+.text{
+    font-size: larger;
+    font-weight: bolder;
+}
+.slider{
+    border-radius: 20px;
+    box-shadow: 5px  5px 5px rgba(185, 185, 185, 0.815);
+    background-color: rgba(0, 0, 255, 0.732);
+}
+/* second section */
+.contacts{
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.containing{
+    position: relative;
+    z-index: 2;
+}
+
+/* /////////////////////////////////////////////////////// */
+.photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+a:hover{
+    text-decoration: none;
+}
